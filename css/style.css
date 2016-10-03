@@ -1,0 +1,74 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+*{
+}
+.container{
+
+	margin-top: 5%;
+	width: 600px;
+	height: 83vh;
+	background-color: gray;
+	border-radius: 10px;
+	text-align: center;
+}
+.header{
+	padding: 20px;
+}
+.display{
+	background-color: ghostwhite;
+	text-align: center;
+	margin: auto;
+	width:550px;
+	height: 100px;
+	margin-bottom: 20px; 
+}
+.buttons{
+    padding: 10px;
+	min-width: 500px;
+	min-height: 50px;
+	max-height: 440px;
+	display:flex;
+    display:inline-block;
+    background-color:white;
+ 	flex-wrap: wrap;
+
+}
+button{
+	justify-content:space-around;
+	width:130px;
+	height:80px;
+	background-color: silver;
+}
+
+.ac{
+	background-color: blue;
+}
+.bot{
+	display: flex;
+	display: inline-block;
+	flex-wrap:wrap;
+	max-width: 100%;	
+}
+.keypad{
+max-width:400px;
+text-align: auto;
+background-color: white;
+display: flex;
+display: inline-block;
+}
+
+.right{
+	position: relative;
+	bottom:45px;
+	max-width: 130px;
+	display: flex;
+	display: inline-block;
+	flex-wrap:wrap;
+	margin: auto;
+	background-color: white;
+	max-height: 350px;
+}
+
+#equal{
+	min-height: 170px;
+	flex-grow:20;
+}

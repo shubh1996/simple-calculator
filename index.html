@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>
+        Calculator
+    </title>
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" name="viewport" />
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/skeleton.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="images/favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+    <!-- Content
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+     <div class ="header">
+          <h2><b>Basic Electronics</b></h1>
+          <h3>Simple Calculator</h2>
+      </div>
+      <div class="display" ></div>
+      <div class="buttons">
+          <div class="acce"> 
+            <button type="button" class="ac" id="a"  onclick="ac();">ac</button>
+            <button type="button" class="ac" id="ce" onclick="ac();">ce</button>
+            <button type="button"  id="mod" onclick="a('%');">%</button>
+            <button type="button" id="divide" onclick="a('/');">/</button>
+           </div>
+          <div class="bot">
+                  <div class="keypad">
+                    <button type="button" id="nine" onclick="a(9);">9</button>
+                    <button type="button" id="eight" onclick="a(8);">8</button>
+                    <button type="button" id="seven" onclick="a(7);">7</button>
+                    <button type="button" id="six" onclick="a(6);">6</button>
+                    <button type="button" id="five" onclick="a(5);">5</button>
+                    <button type="button" id="four" onclick="a(4);">4</button>
+                    <button type="button" id="three" onclick="a(3);">3</button>
+                    <button type="button" id="two" onclick="a(2);">2</button>    
+                    <button type="button" id="one" onclick="a(1);">1</button>
+                    <button type="button" id="zero" onclick="a(0);">0</button>
+                    <button type="button" id="point" onclick="a('.');">.</button>
+                    <button type="button" id="multiply" onclick="a('*');">*</button>
+                   </div>
+                  <div class="right">
+                   <button type="button" id="plus" onclick="a('+');">+</button>
+                   <button type="button" id="minus" onclick="a('-');">-</button>
+                   <button type="button" id="equal" onclick="ev();" > = </button>
+                  </div>
+          </div>
+       </div>
+  </div>
+<script type="text/javascript" src="calc.js"></script>
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
