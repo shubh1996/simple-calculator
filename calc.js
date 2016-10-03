@@ -19,6 +19,7 @@ var ev=function(){
    var resu;
    resu = eval(myAns);
     myVar[0].innerHTML=resu;
+    myAns="";
 };
 
 //tried this.
